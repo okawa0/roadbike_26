@@ -1,15 +1,12 @@
 @use "variables" as *;
 
-.header {
-  @include header-font;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
   margin-inline: auto;
   padding-block: 10px;
-  @include container;
+  max-width: 960px;
+  padding-inline: 4%;
 }
 .header__logo {
   width: 120px;
@@ -18,11 +15,10 @@
 .header__nav {
   display: flex;
   align-items: center;
+  font-size: $font-size-sm;
+  color: #24292e;
 }
 .header__lists {
   display: flex;
   gap: 30px;
-}
-.header__item {
-  font-size: 1rem;
 }
