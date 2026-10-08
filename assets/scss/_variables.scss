@@ -13,6 +13,7 @@ $font-size-sm: 0.9rem;
   align-items: center;
   gap: 60px;
   max-width: 960px;
+  margin-inline: auto;
   padding-inline: 4%;
 }
 
@@ -20,4 +21,10 @@ $font-size-sm: 0.9rem;
   display: flex;
   flex-direction: column;
   gap: $size;
+}
+
+@mixin mq {
+  @media (min-width: 1025px) {
+    @content;
+  }
 }

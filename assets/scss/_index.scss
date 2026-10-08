@@ -32,6 +32,10 @@ body {
 .about-content {
   @include flex(10px);
   align-items: center;
+  @include mq {
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 .about-img {
   width: 100px;
@@ -48,6 +52,7 @@ body {
 .about-text {
   font-size: $font-size-sm;
 }
+
 /* #endregion about */
 
 /* #region bicycle */
@@ -59,6 +64,10 @@ body {
 }
 .bicycle-lists {
   @include flex(30px);
+  @include mq {
+    flex-direction: row;
+    gap: 1rem;
+  }
 }
 .bicycle-item {
   @include flex(10px);
