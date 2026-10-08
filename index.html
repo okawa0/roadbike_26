@@ -25,72 +25,78 @@
         </nav>
       </div>
     </header>
-
-    <div id="header-container"></div>
+    <!-- <div id="header-container">JSでfetch予定</div> -->
     <main class="main">
-      <section class="section__main">
-        <div class="main-visual">
+      <section class="hero-section">
+        <div class="hero-wrapper">
           <img
-            class="main-visual-img"
+            class="hero-img"
             src="assets/img/mainvisual.webp"
             alt="白いロードバイク"
           />
         </div>
       </section>
-      <section class="section__about">
+      <section id="about" class="about-section">
         <div class="about-container">
-          <h2 class="about__title">About</h2>
-          <div>
+          <h2 class="about-title">About</h2>
+          <div class="about-content">
             <img
+              class="about-img"
               src="assets/img/about.webp"
               alt="ミヤイチカケルのプロフィール写真"
             />
-            <div>
-              <h3>KAKERU MIYAICHI</h3>
-              <p>
-                テキストテキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキストテキスト
+            <div class="about-info">
+              <h3 class="about-name">KAKERU MIYAICHI</h3>
+              <p class="about-text">
+                テキストテキストテキストテキストテキストテキストテキスト<br />テキストテキストテキストテキストテキストテキストテキスト<br />テキストテキストテキストテキストテキストテキストテキスト
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="section__bicycle">
+      <section id="bicycle" class="bicycle-section">
         <div class="bicycle-container">
-          <h2>Bicycle</h2>
-          <ul>
-            <li>
+          <h2 class="bicycle-title">Bicycle</h2>
+          <ul class="bicycle-lists">
+            <li class="bicycle-item">
               <a href="/bicycle/bicycle1.html"
                 ><img
                   src="assets/img/bicycle1.webp"
                   alt="夕日を背景にした自転車"
               /></a>
-              <a href="/bicycle/bicycle1.html"><h3>タイトルタイトル</h3></a>
-              <p>テキストテキストテキスト</p>
+              <a href="/bicycle/bicycle1.html"
+                ><h3 class="bicycle-name">タイトルタイトル</h3></a
+              >
+              <p class="bicycle-text">テキストテキストテキスト</p>
             </li>
-            <li>
+            <li class="bicycle-item">
               <a href="/bicycle/bicycle2.html"
                 ><img
                   src="assets/img/bicycle2.webp"
                   alt="レンガを背景にした自転車"
               /></a>
-              <a href="/bicycle/bicycle2.html"><h3>タイトルタイトル</h3></a>
-              <p>テキストテキストテキスト</p>
+              <a href="/bicycle/bicycle2.html"
+                ><h3 class="bicycle-name">タイトルタイトル</h3></a
+              >
+              <p class="bicycle-text">テキストテキストテキスト</p>
             </li>
-            <li>
+            <li class="bicycle-item">
               <a href="/bicycle/bicycle3.html"
                 ><img
                   src="assets/img/bicycle3.webp"
                   alt="ミント色の壁を背景にした自転車"
               /></a>
-              <a href="/bicycle/bicycle3.html"><h3>タイトルタイトル</h3></a>
-              <p>テキストテキストテキスト</p>
+              <a href="/bicycle/bicycle3.html"
+                ><h3 class="bicycle-name">タイトルタイトル</h3></a
+              >
+              <p class="bicycle-text">テキストテキストテキスト</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <small>&copy; 2020 Profile</small>
+    </footer>
   </body>
 </html>
