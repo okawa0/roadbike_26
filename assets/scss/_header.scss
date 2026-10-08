@@ -1,0 +1,28 @@
+@use "variables" as *;
+
+.header {
+  @include header-font;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  padding-block: 10px;
+  @include container;
+}
+.header__logo {
+  width: 120px;
+  height: 40px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__lists {
+  display: flex;
+  gap: 30px;
+}
+.header__item {
+  font-size: 1rem;
+}

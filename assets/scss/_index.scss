@@ -1,0 +1,24 @@
+@use "variables" as *;
+
+/* #region hero */
+.main-visual {
+  width: 100%;
+  height: 600px;
+}
+.main-visual-img {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+}
+/* #endregion hero */
+/* #region about */
+.about-container {
+  @include container;
+}
+/* #endregion about */
+/* #region bicycle */
+.bicycle-container {
+  @include container;
+}
+/* #endregion bicycle */
