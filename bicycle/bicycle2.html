@@ -7,24 +7,10 @@
     <meta name="description" content="Bicycle2の詳細ページです。" />
     <link rel="icon" href="../assets/img/favicon.ico" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/js/script.js" defer type="module"></script>
   </head>
   <body>
-    <header class="header">
-      <div class="header-container">
-        <h1 class="header__logo">
-          <a href="../index.html"
-            ><img src="../assets/img/logo.svg" alt="Profile"
-          /></a>
-        </h1>
-        <nav class="header__nav">
-          <ul class="header__lists">
-            <li class="header__item"><a href="#about">About</a></li>
-            <li class="header__item"><a href="#bicycle">Bicycle</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!-- <div id="header-container">JSでfetch予定</div> -->
+    <header class="header" data-include="../partials/header.html"></header>
     <main class="page-main">
       <div class="page-main__wrapper">
         <img
@@ -53,13 +39,9 @@
             １テキスト１テキスト１テキスト１テキスト１
           </p>
         </div>
-        <a class="page-main__pagetop" href="../index.html"
-          >トップに戻る</a
-        >
+        <a class="page-main__pagetop" href="../index.html">トップに戻る</a>
       </div>
     </main>
-    <footer class="footer">
-      <small>&copy; 2020 Profile</small>
-    </footer>
+    <footer class="footer" data-include="/partials/footer.html"></footer>
   </body>
 </html>
