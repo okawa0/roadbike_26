@@ -12,19 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header-container">
-        <h1 class="header__logo">
-          <a href="#"><img src="assets/img/logo.svg" alt="Profile" /></a>
-        </h1>
-        <nav class="header__nav">
-          <ul class="header__lists">
-            <li class="header__item"><a href="#about">About</a></li>
-            <li class="header__item"><a href="#bicycle">Bicycle</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <header class="header" data-include="/partials/header.html"></header>
     <!-- <div id="header-container">JSでfetch予定</div> -->
     <main class="main">
       <section class="hero-section">
@@ -95,8 +83,6 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <small>&copy; 2020 Profile</small>
-    </footer>
+    <footer class="footer" data-include="/partials/footer.html"></footer>
   </body>
 </html>
